@@ -7,19 +7,19 @@ public class Condicionais {
 		int anoDeLancamento = 1999;
         boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;
-        String tipoPlano = "plus";
+        String tipoPlano = " plus ";
 
         if (anoDeLancamento >= 1999) {
-            System.out.println("Clientes gostam de assistir ! ");
+            System.out.println(" Clientes gostam de assistir! ");
         } else if (anoDeLancamento <= 1999) {
-            System.out.println("Clientem não gostam de assistir ");
+            System.out.println(" Clientem não gostam de assistir ");
         }
 
 
         if (!incluidoNoPlano && !tipoPlano.equals("plus")) {
-            System.out.println("Deve primeiro pagar o plano para assistir");
+            System.out.println(" Deve primeiro pagar o plano para assistir ");
         } else {
-            System.out.println("Filme liberado !!!");
+            System.out.println(" Filme liberado !! ");
         }
 
 	}
